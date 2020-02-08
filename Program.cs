@@ -12,7 +12,7 @@ namespace Methods
     {
         static void Main(string[] args)
         {
-            // Ask user input their name.
+            // Name of user
             Console.Write("Please enter your name:");
 
             // To handle input errors. 
@@ -27,7 +27,7 @@ namespace Methods
             catch
             {
                 // Display error message if wrong input is entered.
-                Console.WriteLine("You have entered an invalid input!");
+                Console.WriteLine("Please enter the correct input");
             }
         }
 
@@ -37,7 +37,7 @@ namespace Methods
             // Extra space
             Console.WriteLine("");
             // Display Hello and user's name in a message.
-            Console.Write("Hello " + get_name + "!");
+            Console.Write("What's up " + get_name + "!");
 
             // Return the value.
             return get_name;
